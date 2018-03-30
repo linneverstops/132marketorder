@@ -1,0 +1,345 @@
+// DrJava saved history v2
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();//End of Interaction//
+Market market1=new Market("Market1",'c',100.0,100.0,8,80.0)//End of Interaction//
+MarketSellOrder mmsellorder1=new MarketSellOrder('c', 8, 80.0, true, market1)//End of Interaction//
+mmsellorder1.getStockSymbol()//End of Interaction//
+mmsellorder1.getNumberShares()//End of Interaction//
+mmsellorder1.setNumberShares(10)//End of Interaction//
+mmsellorder1.getNumberShares()//End of Interaction//
+mmsellorder1.getPrice()//End of Interaction//
+mmsellorder1.setPrice(120.0)//End of Interaction//
+mmsellorder1.getPrice()//End of Interaction//
+mmsellorder1.getAllOrNone()//End of Interaction//
+mmsellorder1.getTrader()//End of Interaction//
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();//End of Interaction//
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();//End of Interaction//
+Market market1=new Market("market1", 'c', 100.0, 100.0, 200, 50.0)//End of Interaction//
+MarketBuyOrder mmbuyorder=new MarketBuyOrder('c', 10, 80.0, true, market1)//End of Interaction//
+MarketSellOrder mmsellorder=new MarketSellOrder('c', 20, 100.0, true, market1)//End of Interaction//
+Trader t2=new Trader("Susan")//End of Interaction//
+t1.deposit(10000.0)//End of Interaction//
+t1.getBalance()//End of Interaction//
+t2.deposit(5000)//End of Interaction//
+t1.withdraw(50.0)//End of Interaction//
+t2.getBalance()//End of Interaction//
+t1.getBalance()//End of Interaction//
+Transaction transaction1=new Transaction('c', 5, 50.0, t1, t2, market1)//End of Interaction//
+transaction1.getStockSymbol()//End of Interaction//
+transaction1.getNumberShares()//End of Interaction//
+transaction1.getPrice()//End of Interaction//
+transaction1.getBuyer()//End of Interaction//
+transaction1.getSeller()//End of Interaction//
+transaction1.IsClosed()//End of Interaction//
+transaction1.getMarketMaker()//End of Interaction//
+transaction1.processTransaction()//End of Interaction//
+t1.getBalance()//End of Interaction//
+t2.getBalance()//End of Interaction//
+Transaction.isClosed(true)//End of Interaction//
+isClosed=true//End of Interaction//
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Market market1=new Market("Market1",'c',100.0,100.0,8,80.0);
+MarketSellOrder mmsellorder1=new MarketSellOrder('c', 8, 80.0, true, market1);
+mmsellorder1.getStockSymbol();
+mmsellorder1.getNumberShares();
+mmsellorder1.setNumberShares(10);
+mmsellorder1.getNumberShares();
+mmsellorder1.getPrice();
+mmsellorder1.setPrice(120.0);
+mmsellorder1.getPrice();
+mmsellorder1.getAllOrNone();
+mmsellorder1.getTrader();
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Market market1=new Market("market1", 'c', 100.0, 100.0, 200, 50.0);
+MarketBuyOrder mmbuyorder=new MarketBuyOrder('c', 10, 80.0, true, market1);
+MarketSellOrder mmsellorder=new MarketSellOrder('c', 20, 100.0, true, market1);//End of Interaction//
+Trader t2=new Trader("Susan")//End of Interaction//
+t1.deposit(10000.0)//End of Interaction//
+t2.deposit(10000.0)//End of Interaction//
+Transaction transaction1=new Transaction('c', 5, 80.0, t1, t2, market1)//End of Interaction//
+transaction1.getStockSymbol()//End of Interaction//
+transaction1.getNumberShares()//End of Interaction//
+transaction1.getPrice()//End of Interaction//
+transaction1.getMarketMaker()//End of Interaction//
+transaction1.getBuyer()//End of Interaction//
+transaction1.getSeller//End of Interaction//
+transaction1.getSeller()//End of Interaction//
+transaction1.processTransaction()//End of Interaction//
+t1.getBalance()//End of Interaction//
+t2.getBalance()//End of Interaction//
+transaction1.IsClosed()//End of Interaction//
+t1.deposit(5450.0)//End of Interaction//
+t2.deposit(4600.0)//End of Interaction//
+t1.getBalance()//End of Interaction//
+t1.withdraw(100.0)//End of Interaction//
+t2.getBalance()//End of Interaction//
+t1.getBalance()//End of Interaction//
+market1.setCommission(10.0)//End of Interaction//
+market1.setTradeFee(10.0)//End of Interaction//
+transaction1.processTransaction()//End of Interaction//
+t1.getBalance()//End of Interaction//
+t2.getBalance()//End of Interaction//

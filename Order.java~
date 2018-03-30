@@ -1,0 +1,68 @@
+/* a class that represents hte data required to either buy or sell a stock */
+public class Order {
+  
+  /* the symbols of the stock */
+  private char stocksymbol;
+  
+  /* the number of shares */
+  private int numshares;
+  
+  /* the price of the stock */
+  private double price;
+  
+  /* the variable that determines whether some shares can be traded or all shares must be traded */
+  private boolean allornone;
+  
+  /* the trader who places the order */
+  private String trader;
+  
+  /* a constructor that takes five inputs */
+  public Order(char stocksymbol , int numshares , double price , boolean allornone, String trader) {
+    this.stocksymbol=stocksymbol;
+    this.numshares=numshares;
+    this.price=price;
+    this.allornone=allornone;
+    this.trader=trader;
+  }
+  
+  /* a method to get stock symbol */
+  public char getStockSymbol() {
+    return stocksymbol;
+  }
+  
+  /* a method to get the number of shares */
+  public int getNumberShares() {
+    return numshares;
+  }
+  
+  /* a method to set the number of shares */
+  public void setNumberShares(int numshares) {
+    this.numshares=numshares;
+  }
+  
+  /* a method to get the price */
+  public double getPrice() {
+    return price;
+  }
+  
+  /* a method to set the price */
+  public void setPrice(double price) {
+    this.price=price;
+  }
+  
+  /* a method to get the variable that determines if all of the shares must be traded in one time */
+  public boolean getAllOrNone() {
+    return allornone;
+  }
+  
+  /* a method to set the variable that determines if all of the shares must be traded in one time */
+  public void setAllOrNone (boolean allornone) {
+    this.allornone=allornone;
+  }
+  
+  /* a method to show the trader's name */
+  public String getTrader() {
+    return trader;
+  }
+  
+}

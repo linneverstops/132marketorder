@@ -1,0 +1,176 @@
+Welcome to DrJava.  Working directory is /Users/Dennis/Documents/EECS132/Project 1
+> Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Market market1=new Market("Market1",'c',100.0,100.0,8,80.0);
+MarketSellOrder mmsellorder1=new MarketSellOrder('c', 8, 80.0, true, market1);
+mmsellorder1.getStockSymbol();
+mmsellorder1.getNumberShares();
+mmsellorder1.setNumberShares(10);
+mmsellorder1.getNumberShares();
+mmsellorder1.getPrice();
+mmsellorder1.setPrice(120.0);
+mmsellorder1.getPrice();
+mmsellorder1.getAllOrNone();
+mmsellorder1.getTrader();
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Trader t1=new Trader("Mary");
+t1.getName();
+t1.setName("Lori");
+t1.getName();
+t1.getBalance();
+t1.deposit(100.0);
+t1.getBalance();
+t1.withdraw(50.0);
+t1.getBalance();
+Order o1=new Order('c',10,10.0,true,t1);
+o1.getStockSymbol();
+o1.getNumberShares();
+o1.setNumberShares(20);
+o1.getNumberShares();
+o1.getPrice();
+o1.setPrice(100.0);
+o1.getPrice();
+o1.getAllOrNone();
+o1.setAllOrNone(false);
+o1.getAllOrNone();
+o1.getTrader();
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1);
+b1.getStockSymbol();
+b1.getNumberShares();
+b1.setNumberShares(20);
+b1.getNumberShares();
+b1.getPrice();
+b1.setPrice(70.0);
+b1.getPrice();
+b1.getAllOrNone();
+b1.setAllOrNone(false);
+b1.getAllOrNone();
+b1.getTrader();
+SellOrder s1=new SellOrder('c',10,30.0,true,t1);
+s1.getStockSymbol();
+s1.getNumberShares();
+s1.setNumberShares(40);
+s1.getNumberShares();
+s1.getPrice();
+s1.setPrice(50.0);
+s1.getPrice();
+s1.getAllOrNone();
+s1.setAllOrNone(false);
+s1.getAllOrNone();
+s1.getTrader();
+Market market1=new Market("market1", 'c', 100.0, 100.0, 200, 50.0);
+MarketBuyOrder mmbuyorder=new MarketBuyOrder('c', 10, 80.0, true, market1);
+MarketSellOrder mmsellorder=new MarketSellOrder('c', 20, 100.0, true, market1);
+> Trader t2=new Trader("Susan")
+> t1.deposit(10000.0)
+> t2.deposit(10000.0)
+> Transaction transaction1=new Transaction('c', 5, 80.0, t1, t2, market1)
+> transaction1.getStockSymbol()
+'c'
+> transaction1.getNumberShares()
+5
+> transaction1.getPrice()
+80.0
+> transaction1.getMarketMaker()
+Market@60dc4c81
+> transaction1.getBuyer()
+Trader@45b3278a
+> transaction1.getSeller
+Static Error: No field in Transaction has name 'getSeller'
+> transaction1.getSeller()
+Trader@1a2d502d
+> transaction1.processTransaction()
+> t1.getBalance()
+4650.0
+> t2.getBalance()
+5400.0
+> transaction1.IsClosed()
+false
+> 

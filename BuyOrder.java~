@@ -1,0 +1,3 @@
+public BuyOrder extends Order {
+  
+}

@@ -1,0 +1,46 @@
+// DrJava saved history v2
+Trader t1=new Trader("Mary")//End of Interaction//
+t1.getName()//End of Interaction//
+t1.setName("Lori")//End of Interaction//
+t1.getName()//End of Interaction//
+t1.getBalance()//End of Interaction//
+t1.deposit(100.0)//End of Interaction//
+t1.getBalance()//End of Interaction//
+t1.withdraw(50.0)//End of Interaction//
+t1.getBalance()//End of Interaction//
+Order o1=new Order('c',10,10.0,true,t1)//End of Interaction//
+o1.getStockSymbol()//End of Interaction//
+o1.getNumberShares()//End of Interaction//
+o1.setNumberShares(20)//End of Interaction//
+o1.getNumberShares()//End of Interaction//
+o1.getPrice()//End of Interaction//
+o1.setPrice(100.0)//End of Interaction//
+o1.getPrice()//End of Interaction//
+o1.getAllOrNone()//End of Interaction//
+o1.setAllOrNone(false)//End of Interaction//
+o1.getAllOrNone()//End of Interaction//
+o1.getTrader()//End of Interaction//
+BuyOrder b1=new BuyOrder('c',10,10.0,true,t1)//End of Interaction//
+b1.getStockSymbol()//End of Interaction//
+b1.getNumberShares()//End of Interaction//
+b1.setNumberShares(20)//End of Interaction//
+b1.getNumberShares()//End of Interaction//
+b1.getPrice()//End of Interaction//
+b1.setPrice(70.0)//End of Interaction//
+b1.getPrice()//End of Interaction//
+b1.getAllOrNone()//End of Interaction//
+b1.setAllOrNone(false)//End of Interaction//
+b1.getAllOrNone()//End of Interaction//
+b1.getTrader()//End of Interaction//
+SellOrder s1=new SellOrder('c',10,30.0,true,t1)//End of Interaction//
+s1.getStockSymbol()//End of Interaction//
+s1.getNumberShares()//End of Interaction//
+s1.setNumberShares(40)//End of Interaction//
+s1.getNumberShares()//End of Interaction//
+s1.getPrice()//End of Interaction//
+s1.setPrice(50.0)//End of Interaction//
+s1.getPrice()//End of Interaction//
+s1.getAllOrNone()//End of Interaction//
+s1.setAllOrNone(false)//End of Interaction//
+s1.getAllOrNone()//End of Interaction//
+s1.getTrader()//End of Interaction//
